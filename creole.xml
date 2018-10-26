@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- $Id$ -->
+<CREOLE-DIRECTORY>
+	<JAR SCAN="true">ICTCLASChineseTokenizer-1.0-SNAPSHOT.jar</JAR>
+	<!-- Processing Resources -->
+	<CREOLE>
+		<!-- creole.xml for the Chinese Segmenter PR -->
+		<RESOURCE>
+			<NAME>ICTCLAS Chinese Tokenizer</NAME>
+			<COMMENT>A customisable Chinese ChineseTokenizer.</COMMENT>
+			<CLASS>gate.creole.ChineseTokenizer.ICTCLASChineseTokenizer</CLASS>
+		</RESOURCE>			  
+	</CREOLE>
+</CREOLE-DIRECTORY>
